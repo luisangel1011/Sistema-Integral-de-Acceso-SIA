@@ -1,0 +1,14 @@
+librerias a usar
+python:
+smtplib:envio de correos electronicos  , pywhatkit:envio de mensajes por whatsapp, 
+
+
+Paginas web
+
+html5-qrcode:Lector de codigo qr y de barras, chart.js
+
+android:
+Retrofit: conexion con api rest
+
+Banco de datos para la IA: 
+https://universe.roboflow.com/davorin-iacyp/human-faces-ozkju/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true

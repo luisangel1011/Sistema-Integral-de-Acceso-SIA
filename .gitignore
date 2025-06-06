@@ -1,0 +1,35 @@
+# Archivos de sistema (Mac/Windows)
+.DS_Store
+Thumbs.db
+
+# Archivos de backup y temporales
+*.bak
+*.tmp
+*.log
+
+# Archivos ZIP o comprimidos
+*.zip
+
+# No subir este archivo grande en particular
+Aplicacion movil.zip
+
+# Configuración de editores
+.vscode/
+.idea/
+
+# Carpeta Git interna (no subir manualmente)
+.git/
+
+# Archivos Python compilados
+__pycache__/
+*.pyc
+*.pyo
+
+# Entornos virtuales Python (por si usas en Python/)
+venv/
+env/
+
+# Otros archivos temporales
+*.swp
+*.swo
+*.~lock.*#

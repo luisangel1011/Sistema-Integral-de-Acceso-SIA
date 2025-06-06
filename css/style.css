@@ -1,0 +1,1018 @@
+/*inicio de encabezado*/
+
+.Inicio {
+    margin: 0;
+    padding: 0;
+
+    /* Asegura que el body ocupe toda la altura de la ventana */
+
+
+    background-color: rgb(194, 194, 194);
+}
+
+.ContenidoInd {
+    margin-left: 2vw;
+    margin-top: 30px;
+}
+
+.ContenidoInd .imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(90%);
+}
+
+.Sesion {
+    background-image: url('/SIA/Fondos/1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.headerIcon {
+    background-color: rgb(143, 62, 62);
+    display: flex;
+    z-index: 100;
+}
+
+.icono {
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem 5%;
+
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container label {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+
+.icono .btnlogoInd {
+    width: auto;
+    height: 8vh;
+    max-width: 12vw;
+    aspect-ratio: 1 / 1;
+    display: inline-block;
+    padding: 4px;
+    object-fit: contain;
+}
+
+.icono .btnlogoInd:hover {
+    filter: sepia(3);
+    cursor: pointer;
+}
+
+.icono .botones {
+
+
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 0.7rem 1.5rem;
+    border-radius: 4px;
+    font-weight: 500;
+
+    transition: all 0.3s ease;
+    display: inline-flex;
+
+}
+
+.btnRegistrarse {
+    background-color: rgba(153, 28, 28, 0.959);
+    color: white;
+
+}
+
+
+.btnSesion {
+    background-color: rgba(255, 255, 255, 0.959);
+    color: rgba(153, 28, 28, 0.959);
+    border: 2px solid rgba(153, 28, 28, 0.959);
+}
+
+
+
+
+
+.btnRegistrarse:hover,
+.btnRegistrarse label:hover {
+    background-color: rgba(97, 17, 17, 0.959);
+    color: white;
+    cursor: pointer;
+
+}
+
+
+.btnSesion:hover,
+.btnSesion label:hover {
+    background-color: rgba(189, 189, 189, 0.959);
+    cursor: pointer;
+}
+
+
+
+
+/*final de encabezado*/
+
+/* Inicio de Cuerpo*/
+
+
+
+
+
+
+
+.seccion {
+    width: 95vw
+}
+
+.logo {
+    padding-left: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    background-color: rgb(153, 28, 28);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 35px
+}
+
+.texto {
+
+    background-color: rgb(255, 255, 255);
+    display: block;
+
+    color: black;
+    font-size: 20px;
+
+    padding: 40px;
+
+    margin-bottom: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.texto .Lista {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.texto .Lista .elemento {
+    background-color: rgb(245, 245, 245);
+    padding: 8px;
+    border-radius: 10px;
+    width: 25vw;
+    max-width: 220px;
+    margin-top: 10px;
+
+    border-left: 4px solid rgb(153, 28, 28);
+}
+
+
+
+.contenido-principal {
+    margin-top: 30px;
+    min-height: calc(92vh - 30px);
+    /* Ajusta este valor según el alto de tu footer */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+
+}
+
+.InicioSesion,
+.FormReg {
+    width: 60vw;
+
+    background: rgb(131, 28, 28);
+    background: linear-gradient(90deg, rgba(131, 28, 28, 0.7032710280373832) 0%,
+            rgba(255, 162, 162, 0.7009345794392523) 50%, rgba(131, 28, 28, 0.705607476635514) 100%);
+    display: block;
+
+    color: white;
+    border-radius: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 2px ridge rgb(105, 35, 35);
+}
+
+.InicioSesion,
+.FormReg {
+
+    margin-top: 20vh;
+}
+
+.InicioSesion div,
+.FormReg div {
+    font-size: 28px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.RadGeneroReg label {
+    padding-left: 30px;
+}
+
+.InicioSesion button,
+.FormReg button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-style: none;
+    font-size: 25px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 6px 4px rgba(73, 73, 73, 0.247);
+
+}
+
+
+
+.InicioSesion button:hover,
+.FormReg button:hover {
+    background-color: gray;
+    cursor: pointer;
+
+}
+
+.ScanC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 20px;
+    color: white;
+}
+
+.ScanC label {
+    font-size: 20px;
+}
+
+.ScanC label:hover {
+    color: rgb(192, 192, 209);
+    cursor: pointer;
+}
+
+.logoImg img {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    transform: translate(0%, -30%);
+}
+
+.logoImg img:hover {
+
+    filter: sepia(3);
+    cursor: pointer;
+
+}
+
+.Mensaje {
+    width: 30%;
+    position: absolute;
+    background-color: rgba(153, 28, 28, 0.856);
+    position: absolute;
+    border: 2px ridge rgb(105, 35, 35);
+    transform: translate(110%, -200%);
+    border-radius: 20px;
+    visibility: hidden;
+
+}
+
+.Mensaje div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.Mensaje label {
+    color: white;
+    font-size: 30px;
+}
+
+.Mensaje i {
+    font-size: 40px;
+    color: white;
+}
+
+.Mensaje button {
+    border-style: none;
+    font-size: 20px;
+
+}
+
+.Mensaje i:hover,
+.Mensaje label:hover {
+    color: gray;
+}
+
+.Mensaje button:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+
+/*Lector QR*/
+
+
+#btnStartScan:hover {
+    background-color: #218838;
+}
+
+video {
+    width: 100%;
+    max-width: 400px;
+    display: none;
+    /* Se muestra al iniciar el escaneo */
+}
+
+/*Lector QR*/
+
+/* Perfil*/
+.contenedor-flex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 5vh;
+}
+
+.PerTitulo {
+    background-color: rgb(177, 0, 0);
+    margin-bottom: 1vh;
+    padding: 5px;
+}
+
+.Recuadro_perfil {
+
+    background-color: rgb(83, 83, 83);
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+
+    border: 3px solid rgb(51, 51, 51);
+
+}
+
+.InfGrafica .recuadroVacio,
+.PerAsistencia .recuadroVacio,
+.ContenedorModAlumno .recuadroVacio {
+
+    justify-content: center;
+    align-items: center;
+    height: 24vh;
+    font-size: 30px;
+    display: none;
+}
+
+.CargaAcademica,
+.InfUsuario,
+.InfGrafica {
+    width: auto;
+    min-width: 25vw;
+    height: auto;
+    min-height: 300px;
+    padding-bottom: 25px;
+    background-color: rgb(83, 83, 83);
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+
+    border: 3px solid rgb(51, 51, 51);
+    margin-top: 0vh;
+    display: inline-block;
+    color: white;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.CSesion {
+    background-color: rgb(255, 255, 255);
+}
+
+.Notificaciones {
+    color: rgb(255, 255, 255);
+}
+
+.Notificaciones label:hover {
+    color: rgb(161, 161, 161);
+    cursor: pointer;
+}
+
+.CSesion:hover,
+.CSesion label:hover {
+    background-color: rgb(161, 161, 161);
+    cursor: pointer;
+}
+
+.PerBusqueda {
+    margin-top: 10px;
+    margin-bottom: 3px;
+    display: flex;
+}
+
+.PerBusqueda div {
+    margin-left: 20px;
+}
+
+.PerBusqueda div input {
+    border-radius: 10px;
+    font-size: 20px;
+    height: 30px;
+}
+
+
+.PerBusquedaInp {
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 20px;
+    height: 30px;
+    border-right: none;
+}
+
+.PerBusquedaInp:focus {
+    background-color: #c5c5c5;
+}
+
+.PerBusquedaBtn {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    font-size: 20px;
+    height: 36px;
+}
+
+.PerAsistencia {
+
+    overflow-y: auto;
+    max-height: 25vh;
+    margin-bottom: 10px
+}
+
+.PerAsistencia .tablaAsistencia,
+.PerAsistencia1 .tablaAsistencia1 {
+    width: 90vw;
+    font-size: 20px;
+    table-layout: fixed;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+
+.InfGrafica:hover {
+    cursor: pointer;
+    filter: brightness(80%);
+}
+
+.InfUsuario div,
+.InfGrafica div,
+.CargaAcademica div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.InfUsuario img {
+    width: 12vw;
+    padding-bottom: 2vh;
+}
+
+.InfUsuario input {
+    width: 18vw;
+    font-size: medium;
+
+}
+
+.InfUsuario input:hover {
+    filter: brightness(90%);
+
+}
+
+.InfUsuario div {
+    padding-bottom: 4px;
+}
+
+.InfUsuario div button {
+
+    padding: 7px;
+    border-style: none;
+    border-radius: 6px;
+    font-size: 18px;
+}
+
+/* Perfil*/
+
+/* ---------------Lista Vertical----------------------*/
+
+.sidebar {
+    height: 100vh;
+    width: 220px;
+    background-color: rgba(153, 28, 28, 0.91);
+    color: #ffffff;
+    position: fixed;
+    z-index: 9999;
+
+
+}
+
+
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    position: relative;
+}
+
+.sidebar ol {
+    list-style: none;
+
+}
+
+.sidebar ul li label {
+    display: block;
+    color: #b8c7ce;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.sidebar ul li label:hover {
+    background-color: rgba(184, 58, 58, 0.91);
+    border: 2px, solid, rgba(240, 118, 118, 0.91);
+    cursor: pointer;
+    color: #fff;
+}
+
+.sidebar ul .perfil img {
+    height: 32px;
+    width: 32px
+}
+
+.sidebar ul .perfil {
+    background-color: rgb(130, 57, 57);
+    border: 2px, solid, rgba(0, 0, 0, 0.91);
+}
+
+i {
+    margin-right: 10px;
+}
+
+.sidebar #EmergentList {
+    background-color: rgb(123, 43, 43);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.sidebar .EmergentListAlumno,
+.sidebar .EmergentListUsuario,
+.sidebar .EmergentListOtros {
+    display: none;
+}
+
+.sidebar .ListAlumno:hover~.EmergentListAlumno,
+.sidebar .ListUsuario:hover~.EmergentListUsuario,
+.sidebar .ListOtros:hover~.EmergentListOtros,
+.EmergentListAlumno:hover,
+.EmergentListUsuario:hover,
+.EmergentListOtros:hover {
+    display: block;
+}
+
+.toggle-btn {
+
+    top: 35px;
+    left: 35px;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 27px;
+
+    border-radius: 4px;
+}
+
+.toggle-btn:hover {
+    cursor: pointer;
+    background-color: rgba(153, 28, 28, 0.74);
+}
+
+.sidebar {
+    transition: all 0.3s ease;
+}
+
+.sidebar.active {
+    transform: translateX(-250px);
+}
+
+
+
+.CargaAcademica .PerCarga img {
+    width: 20vw;
+    height: auto;
+    min-width: 24vw;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.PerTxtAsistencia {
+    background-color: white;
+    border: 2px solid black;
+    width: auto;
+    height: auto;
+    font-size: 23px;
+    padding: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ExportarPDF {
+    color: rgb(83, 83, 83);
+    font-size: 20px;
+    padding: 3px;
+}
+
+.ExportarPDF,
+.ExportarCarga {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(173, 171, 171);
+    border: 1px solid black;
+    border-radius: 3px;
+    text-shadow: rgb(67, 67, 67) 1px 1px;
+    padding: 4px;
+    text-decoration-line: none;
+    color: black;
+}
+
+.ExportarPDF:hover,
+.ExportarCarga:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: rgba(153, 28, 28, 0.74);
+
+}
+
+#Contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 96w;
+    height: auto;
+    gap: 10px;
+
+    margin-bottom: 5px;
+    background-color: rgb(153, 153, 153);
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+    border: 3px solid rgb(0, 0, 0);
+}
+
+#Tarjeta label {
+    width: 200px;
+    background-color: rgba(184, 58, 58, 0.91);
+}
+
+.TarjetaAdmin {
+    background-color: rgb(83, 83, 83);
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+    border: 3px solid rgb(51, 51, 51);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+    width: 150px;
+    height: 90px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 20px;
+    transition: all 0.3s ease;
+    font-size: 18px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+
+}
+
+.TarjetaAdmin i {
+    font-size: 1em;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.TarjetaAdmin:hover {
+    cursor: pointer;
+    filter: brightness(85%);
+    transform: translateY(-5px);
+}
+
+.RegistroAlumno {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Dos columnas iguales */
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.RegistroAlumno .titulo-formulario,
+.RegistroAlumno .boton-formulario {
+    grid-column: span 2;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.RegistroAlumno .titulo-formulario h2 {
+    font-size: 1.8em;
+    color: white;
+    margin: 0;
+}
+
+.RegistroAlumno div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.RegistroAlumno input,
+.RegistroAlumno select {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.RegistroAlumno input[type="file"] {
+    background-color: rgba(255, 255, 255, 0.95);
+    color: black;
+}
+
+.RegistroAlumno button {
+    grid-column: span 2;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.RegistroAlumno button:hover {
+    background-color: gray;
+}
+
+
+.CentroFormulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+
+
+
+
+.ContenedorModAlumno {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+
+
+    z-index: 0;
+}
+
+/* Lista de alumnos */
+.ContenedorModAlumno {
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+
+    overflow: hidden;
+
+}
+
+.ListaAlumnos,
+.SelMultiple,
+.FormularioNotificacion {
+    border: 3px solid rgb(51, 51, 51);
+    width: 90vw;
+    color: white;
+
+
+    padding: 10px 10px 20px 10px;
+    border-radius: 10px;
+
+
+    display: flex;
+    flex-direction: column;
+    /* o la altura que desees */
+
+}
+
+
+
+.FormularioNotificacion h2 {
+    margin-bottom: 25px;
+    font-size: 1.8em;
+}
+
+.FormularioNotificacion textarea {
+    width: 90%;
+    height: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: none;
+    resize: none;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.FormularioNotificacion button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.FormularioNotificacion button:hover {
+    background-color: gray;
+}
+
+
+
+.SelMultiple i {
+    float: right;
+}
+
+.BuscadorWrapper {
+    display: flex;
+    justify-content: center;
+
+}
+
+.BuscadorAlumno {
+    width: 60vw;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+.Listado {
+    padding-top: 10px;
+    max-height: 300px;
+    /* O ajusta a lo que necesites ver */
+    overflow-y: auto;
+}
+
+.ItemAlumno {
+    padding: 15px;
+    margin-bottom: 8px;
+    background-color: rgba(8, 8, 8, 0.1);
+    border-radius: 5px;
+
+    transition: background-color 0.3s ease;
+}
+
+.ItemAlumno:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.ItemAlumno i,
+.SelMultiple i {
+    margin-left: 4px;
+    padding: 6px;
+}
+
+.ItemAlumno i:hover,
+.SelMultiple i:hover {
+    background-color: gray;
+    cursor: pointer;
+    color: black;
+
+}
+
+
+/* Formulario */
+.FormularioModAlumno {
+
+
+    margin-bottom: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+.FormularioModAlumno img.FotoAlumno {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.FormularioModAlumno input,
+.FormularioModAlumno select {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.FormularioModAlumno button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.FormularioModAlumno button:hover {
+    background-color: gray;
+}
+
+
+
+.ItemAlumno input[type="checkbox"] {
+    transform: scale(1.3);
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: rgb(49, 49, 49);
+    color: rgba(240, 238, 238, 0.96);
+    text-align: center;
+    padding: 1rem;
+
+}
+
+/*pie de pagina*/
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    height: 40px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-links a {
+    color: var(--text-light);
+    text-decoration: none;
+}
+
+.copyright {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: var(--grey-medium);
+}

@@ -1,0 +1,10 @@
+{"name":"A.jpg","full_path":"A.jpg","type":"image\/jpeg","tmp_name":"C:\\wamp64\\tmp\\php9E95.tmp","error":0,"size":35384}
+{"name":"A.jpg","full_path":"A.jpg","type":"image\/jpeg","tmp_name":"C:\\wamp64\\tmp\\php6860.tmp","error":0,"size":35384}
+{"name":"Visual_Studio_Icon_2019.svg.png","full_path":"Visual_Studio_Icon_2019.svg.png","type":"image\/png","tmp_name":"C:\\wamp64\\tmp\\php9770.tmp","error":0,"size":57252}
+{"name":"A.jpg","full_path":"A.jpg","type":"image\/jpeg","tmp_name":"C:\\wamp64\\tmp\\php5E7B.tmp","error":0,"size":35384}
+{"name":"Visual_Studio_Icon_2019.svg.png","full_path":"Visual_Studio_Icon_2019.svg.png","type":"image\/png","tmp_name":"C:\\wamp64\\tmp\\php1E1.tmp","error":0,"size":57252}
+{"name":"A.jpg","full_path":"A.jpg","type":"image\/jpeg","tmp_name":"C:\\wamp64\\tmp\\php89BA.tmp","error":0,"size":35384}
+{"name":"1-intro-photo-final.jpg","full_path":"1-intro-photo-final.jpg","type":"image\/jpeg","tmp_name":"C:\\wamp64\\tmp\\phpC54D.tmp","error":0,"size":81669}
+{"name":"Visual_Studio_Icon_2019.svg.png","full_path":"Visual_Studio_Icon_2019.svg.png","type":"image\/png","tmp_name":"C:\\wamp64\\tmp\\phpB69F.tmp","error":0,"size":57252}
+{"name":"1-intro-photo-final.jpg","full_path":"1-intro-photo-final.jpg","type":"image\/jpeg","tmp_name":"C:\\wamp64\\tmp\\php4812.tmp","error":0,"size":81669}
+{"name":"ISC211927 - copia.jpg","full_path":"ISC211927 - copia.jpg","type":"image\/jpeg","tmp_name":"C:\\wamp64\\tmp\\phpAF1A.tmp","error":0,"size":9078}
